@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 # ==========================================
 
-BASE_URL = “https://www.rumah123.com”
+BASE_URL = "https://www.rumah123.com"
 
 # Pola URL pencarian tanah per kota
 
