@@ -1,23 +1,3 @@
-“””
-scraper_properti.py — Prototipe Web Scraper Properti
-Sumber  : rumah123.com (halaman listing tanah)
-Deploy  : Streamlit Cloud (GitHub)
-Versi   : 1.0 — Prototipe (1 halaman, validasi field mapper)
-
-Strategi parsing:
-Rumah123 adalah Next.js app. Data listing tersimpan di tag <script id="__NEXT_DATA__">
-dalam format JSON — jauh lebih andal dari CSS selector yang bisa berubah kapan saja.
-Pendekatan: httpx (request ringan) → BeautifulSoup cari **NEXT_DATA** → parse JSON.
-
-Dependencies (requirements.txt):
-streamlit
-httpx
-beautifulsoup4
-pandas
-openpyxl
-lxml
-“””
-
 import streamlit as st
 import httpx
 import json
