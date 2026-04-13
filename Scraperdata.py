@@ -834,7 +834,7 @@ if tombol_scrape:
         if not df_hasil.empty:
             st.markdown("**Sampel record pertama (raw):**")
             st.json(df_hasil.iloc[0].to_dict())
-```
+
 delay_min/max: jeda detik sebelum request (rate limiting).
 """
 slug = KOTA_SLUG.get(kota_nama, kota_nama.lower().replace(" ", "-"))
