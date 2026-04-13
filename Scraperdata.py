@@ -1106,11 +1106,11 @@ else:
 # 2. Render HTML menggunakan Streamlit
 
 st.markdown(f"""
-<div class="page-header">
-    '<div class="badge">Prototipe v1.0 - 1 Halaman</div>'
-    <h1>Scraper Data Tanah</h1>
-    <p>Sumber: rumah123.com &nbsp;·&nbsp; Parser: __NEXT_DATA__ JSON &nbsp;·&nbsp;
-       Target: {target_text}</p>
+    <div class="page-header">
+#    <div class="badge">Prototipe v1.0 - 1 Halaman</div>
+#    <h1>Scraper Data Tanah</h1>
+#    <p>Sumber: rumah123.com &nbsp;·&nbsp; Parser: __NEXT_DATA__ JSON &nbsp;·&nbsp;
+#       Target: {target_text}</p>
 </div>
 """, unsafe_allow_html=True)
 
