@@ -1097,15 +1097,23 @@ tombol_scrape = st.button("🔍  Mulai Scraping", type="primary")
 
 # — HEADER —
 
-st.markdown(f"""
+# 1. Siapkan teks target terlebih dahulu agar logika if-else tidak menumpuk di dalam HTML
+if kecamatan_input:
+    target_text = f"{kota_pilihan} — {kecamatan_input}"
+else:
+    target_text = f"{kota_pilihan}"
 
+# 2. Render HTML menggunakan Streamlit
+
+st.markdown(f"""
 <div class="page-header">
-    '<div class="badge">Prototipe v1.0 — 1 Halaman</div>'
+    <div class="badge">Prototipe v1.0 — 1 Halaman</div>
     <h1>Scraper Data Tanah</h1>
     <p>Sumber: rumah123.com &nbsp;·&nbsp; Parser: __NEXT_DATA__ JSON &nbsp;·&nbsp;
-       Target: {kota_pilihan}{" — " + kecamatan_input if kecamatan_input else ""}</p>
+       Target: {target_text}</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 # — PANDUAN —
 
