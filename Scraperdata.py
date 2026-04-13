@@ -1159,7 +1159,7 @@ unsafe_allow_html=True)
 # — PROSES SCRAPING —
 
 if tombol_scrape:
-st.markdown(”—”)
+st.markdown("—")
 
 ```
 with st.spinner(f"Mengambil data dari rumah123.com — {kota_pilihan}..."):
