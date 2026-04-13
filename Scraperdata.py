@@ -1140,7 +1140,7 @@ yang bisa berubah kapan saja saat situs diupdate.
 
 **Kolom output kompatibel dengan Pangkalandata8.py**
 Hasil download bisa langsung diupload ke Pangkalandata untuk melihat peta & statistik.
-""")
+"""
 ```
 
 # — LOAD EXISTING DATA —
