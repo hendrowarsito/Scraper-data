@@ -1149,8 +1149,8 @@ df_existing = pd.DataFrame()
 if file_existing:
 try:
 df_existing = pd.read_excel(file_existing)
-st.markdown(f’<div class="ok-box">✓ File existing dimuat: ’
-f’<b>{len(df_existing)}</b> baris sebagai referensi duplikat.</div>’,
+st.markdown(f'<div class="ok-box">✓ File existing dimuat: '
+f'<b>{len(df_existing)}</b> baris sebagai referensi duplikat.</div>',
 unsafe_allow_html=True)
 except Exception as e:
 st.markdown(f’<div class="warn-box">⚠ Gagal membaca file existing: {e}</div>’,
