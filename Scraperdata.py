@@ -1100,7 +1100,7 @@ tombol_scrape = st.button("🔍  Mulai Scraping", type="primary")
 st.markdown(f"""
 
 <div class="page-header">
-    <div class="badge">Prototipe v1.0 — 1 Halaman</div>
+    '<div class="badge">Prototipe v1.0 — 1 Halaman</div>'
     <h1>Scraper Data Tanah</h1>
     <p>Sumber: rumah123.com &nbsp;·&nbsp; Parser: __NEXT_DATA__ JSON &nbsp;·&nbsp;
        Target: {kota_pilihan}{" — " + kecamatan_input if kecamatan_input else ""}</p>
