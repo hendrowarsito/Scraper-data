@@ -1153,7 +1153,7 @@ st.markdown(f'<div class="ok-box">✓ File existing dimuat: '
 f'<b>{len(df_existing)}</b> baris sebagai referensi duplikat.</div>',
 unsafe_allow_html=True)
 except Exception as e:
-st.markdown(f’<div class="warn-box">⚠ Gagal membaca file existing: {e}</div>’,
+st.markdown(f'<div class="warn-box">⚠ Gagal membaca file existing: {e}</div>',
 unsafe_allow_html=True)
 
 # — PROSES SCRAPING —
